@@ -1,0 +1,21 @@
+{
+    "name": "lihatskiy/laravel-seo-routing",
+    "description": "SEO routing for Laravel based apps.",
+    "keywords": ["laravel", "seo-routing"],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Mihail Lihatskiy",
+            "email": "lihatskiym@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "~5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lihatskiy\\SeoRouting\\": "src/"
+        }
+    }
+}
